@@ -2,3 +2,43 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+.priority,
+.todo,
+.done,
+.tag {
+  font-family: "Source Pro", Monaco, "Courier New", monospace;
+  padding: 0 0.3em;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+}
+
+.done {
+    color: #f50ef9;
+}
+
+.todo {
+    color: #DD4433;
+}
+
+.tag {
+    font-size: 80%;
+    font-weight: normal;
+    margin: 0 0.3em;
+    display: none;
+  }
+
+  .timestamp {
+    color: #BEBEBE;
+  }
+
+  .timestamp-kwd {
+    color: #5F9EA0;
+  }
+.priority
+{
+    color: #DD4433;
+}
+span.tag {
+    color:#2CED20; /* 紺 */
+    background-color: #000066;
+}
